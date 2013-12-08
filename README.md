@@ -1,6 +1,6 @@
-Adaptive Huffman
+Huffman
 ================
-A Java based adpative Huffman algorithm implementation.
+A Java based static/adpative Huffman algorithm implementation.
 
 Requirements
 ------------
@@ -14,5 +14,6 @@ Run
 ---
 java -jar dist/Huffman.jar
 
-Screenshots
------------
+Screenshot
+----------
+![ScreenShot](https://raw.github.com/jiahansu/AdaptiveHuffman/master/screenshot/ui.png)
