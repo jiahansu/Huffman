@@ -47,9 +47,7 @@ public class CompressionUtilities {
 
     public final static byte flush(final BitBuffer bitBuffer, final ByteBuffer byteBuffer, final FileChannel fileChannel, boolean flushToFile) throws IOException {
 
-        byte writeCount = 0;
-
-        writeCount = bitBuffer.getSize();
+        byte writeCount = bitBuffer.getSize();
         //byteBuffer.clear();
         if (byteBuffer.remaining() < 8) {
             byteBuffer.limit(byteBuffer.capacity());
